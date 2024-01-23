@@ -2,80 +2,203 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Changing Perspectives</title>
-    <!-- CSS files -->
-    <link rel="stylesheet" href="style.css">
-    <!-- JavaScript files -->
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{
+          background-color: gainsboro;
+        }
+        .carousel-inner{
+          padding: 10%;
+        }
+        .carousel-item {
+            display: none;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .carousel-item.active {
+            display: flex;
+        }
+        .gif-container, .text-container {
+            flex: 50%;
+            text-align: center;
+        }
+        .gif-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <!-- Header content here -->
-    </header>
-    
-    <nav>
-        <!-- Navigation menu here -->
-    </nav>
-    
-    <main>
-        <div class="row">
-  <div class="column">
-    <div class="container">
-    <img src="images/dream1.gif" class="image">
-    <div class="overlay">
-        <!--1940s-->
-        <div class="text">Computer programming is women’s work.</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <div class="carousel-inner">
+
+      <!--1940s-->
+        <div class="carousel-item active">
+            <div class="gif-container">
+                <img src="images/draft.gif" alt="1940s">
+            </div>
+            <div class="text-container">
+                <p>In the 1940s, the term "computer" referred to the predominantly female workforce engaged in computational tasks, 
+                  crucial for military and scientific efforts during World War II. This period emphasized women's central role in computing, 
+                  treating programming as women's work. However, despite their critical contributions, these tasks were seen as low-status, 
+                  reflecting societal perceptions that marginalized women's professional capabilities.
+                </p>
+            </div>
+        </div>
+
+        <!--1950s-->
+        <div class="carousel-item">
+          <div class="gif-container">
+              <img src="images/draft.gif" alt="1950s">
+          </div>
+          <div class="text-container">
+              <p>As computing began to professionalize in the 1950s with the advent of machines like ENIAC and UNIVAC, 
+                which were initially programmed by women, perceptions of computing shifted from manual, 
+                clerical tasks to a technological and intellectual profession. This era marked the beginning of a transition, 
+                subtly starting to alter the gender dynamics in computing, as the field gained prominence and recognition within state and industrial frameworks.
+              </p>
+          </div>
       </div>
+
+        <!--1960s-->
+        <div class="carousel-item">
+          <div class="gif-container">
+              <img src="images/draft.gif" alt="1960s">
+          </div>
+          <div class="text-container">
+              <p>The space race of the 1960s further advanced computing technology, associating computers with industrial and social modernity. 
+                This period began to subtly push expectations toward young men to become the new experts in computer technology, particularly in roles like 
+                system design, subtly sidelining women from emerging opportunities and recognition in the growing field of computer science.
+              </p>
+          </div>
+      </div>
+
+        <!--1970s-->
+        <div class="carousel-item">
+          <div class="gif-container">
+              <img src="images/draft.gif" alt="1970s">
+          </div>
+          <div class="text-container">
+              <p>With the introduction of personal computers and GUIs in the 1970s, computing expanded into various industries, 
+                marking the beginning of significant technological shifts. This decade saw the professionalization of computing, which, 
+                through formalizing qualifications and roles, inadvertently began to displace women from the domains they had previously dominated, 
+                pushing them towards software development, perceived as a less prestigious sector.
+              </p>
+          </div>
+      </div>
+
+        <!--1980s-->
+        <div class="carousel-item">
+          <div class="gif-container">
+              <img src="images/draft.gif" alt="1980s">
+          </div>
+          <div class="text-container">
+              <p>The personal computer revolution of the 1980s profoundly impacted gender dynamics within computing. 
+                The marketing of personal computers as tools for boys, coupled with cultural portrayals of computer geeks as predominantly male, 
+                significantly reduced women's participation in computer science. This decline was a direct result of the growing perception of computing 
+                as a male domain, heavily influenced by the era's marketing strategies and societal stereotypes.
+              </p>
+          </div>
+      </div>
+
+        <!--1990s-->
+        <div class="carousel-item">
+          <div class="gif-container">
+              <img src="images/draft.gif" alt="1990s">
+          </div>
+          <div class="text-container">
+              <p>The 1990s witnessed significant technological advances, including the rise of the internet and the 
+                proliferation of personal computing, which transformed the landscape of computer science. As the tech industry boomed,
+                 initiatives were launched to counter the declining participation of women in computer science, with outreach programs, scholarships,
+                  and efforts to make curricula more inclusive. However, despite these efforts, the rapid expansion of the tech industry was predominantly
+                   male-driven. This period's technological advances, while groundbreaking, coincided with a persistently low representation of women in the 
+                   field, reflecting broader systemic issues that continued to marginalize women in computing.
+              </p>
+          </div>
+      </div>
+
+        <!--2000s-->
+        <div class="carousel-item">
+          <div class="gif-container">
+              <img src="images/draft.gif" alt="2000s">
+          </div>
+          <div class="text-container">
+              <p>The 2000s saw the internet becoming ubiquitous, and digital technologies becoming integral to daily life and work, 
+                further emphasizing the importance of computing skills. This era brought a heightened awareness of the gender gap in STEM fields, 
+                including computer science. Initiatives like coding camps and mentorship programs were introduced to engage girls and young women, 
+                aiming to bridge this gap. However, these efforts encountered significant challenges in overcoming entrenched societal and professional barriers. 
+                The digital divide—the gap between those with easy access to digital technology and those without—mirrored and perhaps even exacerbated the 
+                gender gap in computer science, as access to technology became increasingly linked to success in the field.
+              </p>
+          </div>
+      </div>
+
+        <!--2010s-->
+        <div class="carousel-item">
+          <div class="gif-container">
+              <img src="images/draft.gif" alt="2010s">
+          </div>
+          <div class="text-container">
+              <p>The 2010s marked a period of intense technological innovation, with advancements in artificial intelligence, 
+                machine learning, and big data reshaping the future of work and society. Amidst this backdrop, there was a renewed emphasis on 
+                diversity and inclusion in the tech industry and academia. High-profile campaigns and corporate diversity initiatives sought to 
+                create more welcoming environments and encourage participation among underrepresented groups in STEM fields, including women. 
+                Governments and educational institutions doubled down on efforts to address gender imbalances, integrating coding and computational 
+                thinking into earlier stages of education and promoting STEM careers among girls and women. Despite these initiatives, challenges persisted, 
+                underscoring the complexity of dismantling underlying structures of power and exclusion. The decade's technological advancements highlighted 
+                the critical need for diverse perspectives in shaping the future of technology and innovation, making the push for gender equality in 
+                computer science more urgent than ever.
+              </p>
+          </div>
+      </div> 
+
+        <!--2020 - 2023-->
+        <div class="carousel-item">
+          <div class="gif-container">
+              <img src="images/draft.gif" alt="2020-2023">
+          </div>
+          <div class="text-container">
+              <p>The beginning of the 2020s brought significant advances in cloud computing, artificial intelligence (AI), 
+                and the Internet of Things (IoT), mirroring the transformative tech changes of previous decades. 
+                This era, however, was uniquely shaped by the global COVID-19 pandemic, which accelerated the adoption of digital and remote technologies, 
+                highlighting the critical role of connectivity in modern life. Amid these advancements, the tech industry faced renewed scrutiny over its 
+                historical gaps in diversity and inclusion. Efforts to increase representation among women and people of color in tech gained new momentum, 
+                echoing the early and pivotal contributions of women in the 1940s who were central to computing's origins. This period emphasized the 
+                importance of drawing lessons from past efforts to address gender and racial disparities in the field. Initiatives aimed at fostering 
+                inclusive cultures and dismantling systemic barriers to entry and advancement in STEM careers became more pronounced. While these efforts 
+                marked steps toward correcting long-standing inequities, the continued underrepresentation in tech roles, especially in leadership, 
+                highlighted the need for ongoing action. The push for diversity and inclusion in the 2020s, against a backdrop of rapid technological evolution, 
+                reflects a crucial lesson from computing history: innovation achieves its greatest potential when it is fueled by a wide range of perspectives.
+              </p>
+          </div>
+      </div>
+
+
     </div>
-  </div>
-  <div class="column">
-    <div class="container">
-        <img src="images/purple.gif" class="image">
-        <div class="overlay">
-            <!--1950s-->
-            <div class="text">Computers and the workers who operate them are believed to become vital to the state.</div>
-          </div>
-        </div>
-      </div>
-  <div class="column">
-    <div class="container">
-        <img src="images/draft.gif" class="image">
-        <div class="overlay">
-            <!--1960s-->
-            <div class="text">Computers become a symbol of industrial and social modernity. 
-                Employers expect young men to become experts in computer technology to save the economy.
-            </div>
-          </div>
-        </div>
-      </div>
-  <div class="column">
-    <div class="container">
-        <img src="images/draft.gif" class="image">
-        <div class="overlay">
-            <!--1970s-->
-            <div class="text">Women’s representation in computing drops to 9%.
-            </div>
-          </div>
-        </div>
-      </div>
-  <div class="column">
-    <div class="container">
-        <img src="images/draft.gif" class="image">
-        <div class="overlay">
-            <!--2024-->
-            <div class="text">Governments attempt to push girls and women into computing, expecting it to fix the gender imbalances.
-                The initiative to get girls, women, and people of color to train for STEM jobs cannot undo the underlying structures of power. 
-            </div>
-          </div>
-        </div>
-      </div>
+
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
 </div>
-    </main>
-    
-    <footer>
-        <!-- Footer content here -->
-    </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.carousel').carousel({
+        interval: 5000
+    });
+});
+</script>
 </body>
 </html>
