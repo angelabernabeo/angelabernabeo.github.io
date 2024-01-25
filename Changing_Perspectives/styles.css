@@ -8,6 +8,11 @@
     font-family: "Cutive", serif;
    font-weight: 400;
   font-style: normal;
+  line-height: 2;
+  }
+
+  img{
+    padding: 20px;
   }
 
   h1{
@@ -16,6 +21,7 @@
    font-size: 50px;
    text-align: center;
    margin-bottom: 20px;
+   letter-spacing: 2px;
   }
 
   body{
@@ -51,10 +57,66 @@
 
   .gif-container, .text-container {
       flex: 50%;
-      text-align: center;
+      text-align: justify;
   }
   
   .gif-container img {
       max-width: 100%;
       height: auto;
   }
+
+  
+  summary {
+    color: #fff;
+    background: #000;
+    flex: 50%;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    /*top: 0.5rem;
+    right: 0.5rem;*/
+    z-index: 2;
+    border-radius: 50%;
+    background-image: url("https://assets.codepen.io/128034/play_circle_filled-24px.svg");
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+  }
+  
+  [open] summary {
+    background-image: url("https://assets.codepen.io/128034/pause_circle_filled-24px.svg");
+    box-shadow: 0 0 0 2px #fff;
+    background-color: white;
+  }
+  
+  /* for blink/webkit */
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+  /* for firefox */
+  details > summary:first-of-type {
+    list-style: none;
+  }
+  
+  summary + * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    padding-top: 3rem;
+    background: #000;
+    color: #fff;
+    overflow-y: auto;
+  }
+  
+  summary + * a {
+    color: #fff;
+  }
+  summary:focus {
+    box-shadow: 0 0 0 0.25rem #aade87;
+    outline: transparent;
+  }
+  
