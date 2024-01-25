@@ -1,0 +1,59 @@
+.cutive-regular {
+    font-family: "Cutive", serif;
+   font-weight: 400;
+  font-style: normal;
+  }
+  
+  p{
+    font-family: "Cutive", serif;
+   font-weight: 400;
+  font-style: normal;
+  }
+
+  h1{
+    font-family: "Cutive", serif;
+   font-weight: 400;
+   font-size: 50px;
+   text-align: center;
+   margin-bottom: 20px;
+  }
+
+  body{
+    background-color: gainsboro;
+  }
+
+  .carousel-inner{
+    padding: 10%;
+  }
+
+  .heading {
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    margin-top: 20px; 
+    position: relative; 
+    z-index: 10; 
+    }
+
+  .carousel-item{
+      display: none;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .carousel-item.active {
+      display: flex;
+  }
+
+  .gif-container, .text-container {
+      flex: 50%;
+      text-align: center;
+  }
+  
+  .gif-container img {
+      max-width: 100%;
+      height: auto;
+  }
