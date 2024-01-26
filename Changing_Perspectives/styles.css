@@ -25,11 +25,16 @@
   }
 
   body{
-    background-color: gainsboro;
+    background-color: #b4c4d4;
+  }
+
+  .carousel-indicators li{
+    margin-top: -100px;
   }
 
   .carousel-inner{
     padding: 10%;
+    padding-top: -25px;
   }
 
   .heading {
@@ -111,7 +116,7 @@
     bottom: 0;*/
     padding: 1rem;
     /*padding-top: 3rem;*/
-    background: gainsboro;
+    background: #b4c4d4;
     color: #fff;
     overflow-y: auto;
   }
