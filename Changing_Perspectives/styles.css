@@ -100,11 +100,11 @@
   }
   
   summary + * {
-    position: absolute;
+    /*position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0;*/
     padding: 1rem;
     padding-top: 3rem;
     background: #000;
@@ -120,3 +120,12 @@
     outline: transparent;
   }
   
+  .gif-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .gif-container>* {
+    grid-row-start: 1;
+    grid-column-start: 1;
+  }
