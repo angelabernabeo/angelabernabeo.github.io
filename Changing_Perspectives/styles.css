@@ -73,8 +73,8 @@
     width: 2rem;
     height: 2rem;
     position: absolute;
-    /*top: 0.5rem;
-    right: 0.5rem;*/
+    top: 0.5rem;
+    right: 0.5rem;
     z-index: 2;
     border-radius: 50%;
     background-image: url("https://assets.codepen.io/128034/play_circle_filled-24px.svg");
@@ -88,6 +88,10 @@
     background-image: url("https://assets.codepen.io/128034/pause_circle_filled-24px.svg");
     box-shadow: 0 0 0 2px #fff;
     background-color: white;
+  }
+  
+  details {
+    position: relative;
   }
   
   /* for blink/webkit */
