@@ -1,0 +1,268 @@
+body{
+  padding: 0px;
+  margin: 0;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  padding: 50px;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+p a{
+  color: #364C75;
+  text-decoration: none;
+}
+
+p a:hover{
+  color: #777;
+}
+
+small{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #777;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #364C75;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  li a:hover {
+    color:#777;
+  }
+
+  .nav-right{
+    float: right;
+    padding-top: 15px;
+    margin-right: 150px;
+  }
+
+  .latest_posts_section
+  {
+    background-color: white;
+    padding: 50px;
+  }
+
+  .center{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  div.latest_posts {
+    border: 1px solid #ccc;
+  }
+  
+  div.latest_posts:hover {
+    border: 1px solid #777;
+    padding: 15px;
+  }
+  
+  div.latest_posts img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 33%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #364C75;
+  }
+
+  .about_section{
+    background-color: #364C75;
+    color:white
+  }
+
+  aside {
+    width: 50%;
+    padding-top: 200px;
+    margin-right: 100px;
+    float: right;
+    text-align: justify;
+  }
+
+  .about_image{
+    padding: 50px;
+    margin-left: 10%;
+  }
+
+  .page_nav_down{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    padding-top: 50px;
+  }
+
+  .page_nav_up{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    padding-bottom: 50px;
+  }
+
+  .footer{
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+  }
+
+  .footer a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+  }
+
+  .blog_section{
+    background-color: white;
+    padding: 50px;
+  }
+
+  .blog_section a{
+    color: black;
+  }
+
+  .latest_posts_section a{
+    color: black;
+  }
+
+  .pagination {
+    display: inline-block;
+    padding: 25px;
+    
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .pagination a.active {
+    background-color: #ccc;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  div.scroll-container {
+    background-color: #364C75;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+    width: 25%;
+    height: auto;
+  }
+
+  div.scroll-container video {
+    padding: 10px;
+  }
+
+  .blog_writing{
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
