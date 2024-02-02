@@ -169,3 +169,55 @@
     grid-row-start: 1;
     grid-column-start: 1;
   }
+
+  /*mobile responsive code*/
+  
+  
+  @media (max-width: 768px) {
+    .carousel-item {
+      padding: 0 10px;
+    }
+    
+    .title_page_container {
+      max-width: 90%;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .names,
+    .exhibition {
+      margin-top: 10px;
+      font-size: 14px;
+      padding-bottom: 70px;
+      padding-top: -50px;
+    }
+    
+    .text-container p{
+      font-size: 12px;
+      text-align: left;
+      padding-bottom: 70px;
+    }
+
+    h1{
+      font-size: 35px;
+    }
+
+    .carousel-indicators {
+      bottom: 10px;
+      margin-top: 50px;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+      top: calc(50% - 20px);
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
