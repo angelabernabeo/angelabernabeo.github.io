@@ -25,7 +25,38 @@
   }
 
   body{
-    background-color: #b4c4d4;
+    /*background-color: #FFFF00;*/
+    background-color: #5a5ae5;
+    color: #ffffff;
+    font-family: "Cutive", serif;
+   font-weight: 400;
+  font-style: normal;
+  }
+
+  a{
+    color: lightgray;
+  }
+
+  .title_page_container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  
+  .title_image {
+    margin-top: 20px;
+  }
+  
+  .names {
+    font-size: 18px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .exhibition {
+    font-size: 16px;
+    margin-top: 10px;
+    font-size: 15px;
   }
 
   .carousel-indicators li{
@@ -116,7 +147,7 @@
     bottom: 0;*/
     padding: 1rem;
     /*padding-top: 3rem;*/
-    background: #b4c4d4;
+    background: #5a5ae5;
     color: #fff;
     overflow-y: auto;
   }
