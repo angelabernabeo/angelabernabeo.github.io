@@ -26,7 +26,7 @@
 
   body{
     /*background-color: #FFFF00;*/
-    background-color: #5a5ae5;
+    background-color: #0000AA;
     color: #ffffff;
     font-family: "Cutive", serif;
    font-weight: 400;
@@ -148,7 +148,7 @@
     bottom: 0;*/
     padding: 1rem;
     /*padding-top: 3rem;*/
-    background: #5a5ae5;
+    background: #0000AA;
     color: #fff;
     overflow-y: auto;
   }
